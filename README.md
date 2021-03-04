@@ -14,4 +14,4 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
   * [Day 3](/Week_1/Day_3)
     * [Objects](/Week_1/Day_3/objects.md)
   * [Day 4](/Week_1/Day_4)
-    * [Objects](/Week_1/Day_4/callbacks.md)
+    * [Callback Functions](/Week_1/Day_4/callbacks.md)
