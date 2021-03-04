@@ -30,6 +30,7 @@ Output:
 hello
 This is a function.
 ```
+Functions that take in callbacks are referred to as **Higher Order Functions**. Below are some examples...
 
 ## Array.prototype.forEach()
 This method executes a provided function to each element in the array. It combines the value & index access capabilities of for ... of and for ... in loops.
