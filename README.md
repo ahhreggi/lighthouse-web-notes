@@ -18,4 +18,4 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
 
 * [Week 2](/Week_2)
   * [Day 1](/Week_2/Day_1)
-    * [Automated Testing (Mocha & Chai)](/Week_1/Day_1/testing.md)
+    * [Automated Testing (Mocha & Chai)](/Week_2/Day_1/testing.md)
