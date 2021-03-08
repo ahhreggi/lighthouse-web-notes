@@ -15,3 +15,7 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [Objects](/Week_1/Day_3/objects.md)
   * [Day 4](/Week_1/Day_4)
     * [Callback Functions](/Week_1/Day_4/callbacks.md)
+
+* [Week 2](/Week_2)
+  * [Day 1](/Week_2/Day_1)
+    * [Automated Testing (Mocha & Chai)](/Week_1/Day_1/testing.md)
