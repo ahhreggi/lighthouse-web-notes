@@ -21,3 +21,5 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [Automated Testing (Mocha & Chai)](/Week_2/Day_1/testing.md)
   * [Day 2](/Week_2/Day_2)
     * [Asynchronous vs. Synchronous](/Week_2/Day_2/async.md)
+  * [Day 3](/Week_2/Day_3)
+    * [Networking](/Week_2/Day_3/networking.md)
