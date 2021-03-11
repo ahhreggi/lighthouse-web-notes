@@ -23,3 +23,6 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [Asynchronous vs. Synchronous](/Week_2/Day_2/async.md)
   * [Day 3](/Week_2/Day_3)
     * [Networking](/Week_2/Day_3/networking.md)
+  * [Day 4](/Week_2/Day_4)
+    * [Exception Handling](/Week_2/Day_4/exceptions.md)
+    * [Promises](/Week_2/Day_4/promises.md)
