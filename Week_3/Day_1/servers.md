@@ -23,7 +23,10 @@ app.listen(PORT, () => {
 
 ## EJS (Embedded JavaScript Templates)
 
-Allows us to use JavaScript to build HTML pages.
+EJS allows us to use JavaScript to build HTML pages. Express will render `.ejs` files located within a directory called `views`.
+
+You can also pass in an object with variables that can then be accessed by the template.
+
 ```
 // server.js
 
