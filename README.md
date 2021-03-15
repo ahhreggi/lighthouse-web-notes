@@ -26,3 +26,7 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
   * [Day 4](/Week_2/Day_4)
     * [Exception Handling](/Week_2/Day_4/exceptions.md)
     * [Promises](/Week_2/Day_4/promises.md)
+
+* [Week 3](/Week_3)
+  * [Day 1](/Week_3/Day_1)
+    * [Servers](/Week_3/Day_1/servers.md)
