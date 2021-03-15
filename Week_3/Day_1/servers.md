@@ -29,11 +29,11 @@ Allows us to use JavaScript to build HTML pages.
 
 app.get("/memes", (req, res) => {
   const templateVars = {name: "Reggi", color: "blue", PI: 3.14, array: ["one", "two", "three"]}
-  res.render("index", templateVars)
+  res.render("memes_index", templateVars)
 });
 ```
 ```
-// views/index.ejs
+// views/memes_index.ejs
 
 <html>
   <body>
