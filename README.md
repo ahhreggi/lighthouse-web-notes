@@ -30,3 +30,5 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
 * [Week 3](/Week_3)
   * [Day 1](/Week_3/Day_1)
     * [Servers](/Week_3/Day_1/servers.md)
+  * [Day 2](/Week_3/Day_2)
+    * [CRUD - Movie Quotes App](/Week_3/Day_2/crud.md)
