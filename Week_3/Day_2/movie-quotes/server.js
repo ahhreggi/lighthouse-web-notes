@@ -4,23 +4,22 @@ const bodyParser = require('body-parser');
 
 const PORT = process.env.PORT || 3000;
 
-// creating an Express app
+// Create an Express app
 const app = express();
 
-// morgan middleware allows to log the request in the terminal
+// MIDDLEWARE: morgan allows us to log the request in the terminal
 app.use(morgan('short'));
 
 // parse application/x-www-form-urlencoded
-// app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Static assets (images, css files) are being served from the public folder
 app.use(express.static('public'));
 
-// Setting ejs as the template engine
+// Set ejs as the template engine
 app.set('view engine', 'ejs'); //pug, handlebars
 
-// In memory database
+// In-memory database
 const movieQuotesDb = {
   d9424e04: {
     id: 'd9424e04',
@@ -70,21 +69,21 @@ app.get('/', (req, res) => {
 
 // CRUD Operations on quotes
 
-// READ: Get the list of all the quotes
+// READ: Get the list of all quotess
 
 // READ: Display only one quote
 
 
 // CREATE: Create a new quote
 // a) Display the new form
-// b) Add the new quote in the database
+// b) Add the new quote to the database
 
 // UPDATE: Update a quote
-// a) Display de update form
+// a) Display the update form
 // b) Update the quote in the database
 
 // DELETE: Delete a quote
-// Delete from the database
+// Delete a quote from the database
 
 
 app.listen(PORT, () => console.log(`Server is running at port ${PORT}`));
