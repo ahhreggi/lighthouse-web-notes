@@ -8,6 +8,9 @@
       <a href="/quotes/<%= quote.id %>">
         <li><%= quote.quote %> </li>
       </a>
+      <form method="post" action="/quotes/<%= quote.id %>/delete">
+        <input type="submit" value="Delete">
+      </form>
     <% } %>
 
   </ul>
