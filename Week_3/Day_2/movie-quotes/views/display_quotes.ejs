@@ -1,22 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+<%- include('./partials/_head') %>
 
   <h1>Movie Quotes</h1>
 
   <ul>
 
     <% for (let quote of quoteList) { %>
-      <li><%= quote.id %> : <%= quote.quote %> </li>
+      <a href="/quotes/<%= quote.id %>">
+        <li><%= quote.quote %> </li>
+      </a>
     <% } %>
 
   </ul>
+
+  <form method="POST" action="/quotes">
+    <input type="text" name="quoteContent" id="quote">
+    <input type="submit" value="Add Quote">
+  </form>
   
 </body>
 </html>
