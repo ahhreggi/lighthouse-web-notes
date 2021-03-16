@@ -10,7 +10,7 @@ const app = express();
 // MIDDLEWARE: morgan allows us to log the request in the terminal
 app.use(morgan("short"));
 
-// parse application/x-www-form-urlencoded
+// Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Static assets (images, css files) are being served from the public folder
@@ -94,8 +94,8 @@ app.get("/quotes", (req, res) => {
   // req => request object containing all the info about the request
   // res => response object containing info about the response (also methods)
   const quoteList = Object.values(movieQuotesDb);
-  const templateVars = { quoteList };
   // Render a page and pass in an object containing all quotes from the database
+  const templateVars = { quoteList };
   res.render("display_quotes", templateVars);
 });
 
@@ -103,8 +103,8 @@ app.get("/quotes", (req, res) => {
 app.get("/quotes/:quoteId", (req, res) => {
   // Extract the quote id from the path
   const quoteID = req.params.quoteId;
-  const templateVars = { quote: movieQuotesDb[quoteID] };
   // Render a show page for the given ID
+  const templateVars = { quote: movieQuotesDb[quoteID] };
   res.render("quote_show", templateVars);
 });
 
@@ -123,7 +123,6 @@ app.post('/quotes', (req, res) => {
 // UPDATE: Update a quote
 // a) Display the update form
 // b) Update the quote in the database
-
 app.post("/quotes/:quoteId", (req, res) => {
   // Extract the quote id from the path
   const quoteId = req.params.quoteId;
@@ -137,7 +136,6 @@ app.post("/quotes/:quoteId", (req, res) => {
 
 // DELETE: Delete a quote
 // Delete a quote from the database
-
 app.post("/quotes/:quoteId/delete", (req, res) => {
   // Delete the quote from the db
   delete movieQuotesDb[req.params.quoteId];
@@ -145,5 +143,6 @@ app.post("/quotes/:quoteId/delete", (req, res) => {
   res.redirect("/quotes");
 });
 
+//////////////////////////////////////////////
 
 app.listen(PORT, () => console.log(`Server is running at port ${PORT}`));
