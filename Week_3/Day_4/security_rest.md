@@ -41,7 +41,7 @@ By following REST principles, it allows us to design our end points:
 
 #### Nested Resources
 
-You may need to access a nested resources. For example, you need to create a new comment.
+You may need to access nested resources. For example, when you need to create a new comment:
 
 | Action               | http verb | end point                  |
 | -------------------- | --------- | -------------------------- |
