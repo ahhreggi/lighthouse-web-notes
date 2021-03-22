@@ -34,3 +34,5 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [CRUD - Movie Quotes App Example](/Week_3/Day_2/crud.md)
   * [Day 3](/Week_3/Day_3)
     * [HTTP Cookies & User Authentication](/Week_3/Day_3/cookies.md)
+  * [Day 4](/Week_3/Day_4)
+    * [Security & REST](/Week_3/Day_4/security_rest.md)
