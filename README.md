@@ -36,3 +36,6 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [HTTP Cookies & User Authentication](/Week_3/Day_3/cookies.md)
   * [Day 4](/Week_3/Day_4)
     * [Security & REST](/Week_3/Day_4/security_rest.md)
+
+* [Week 4](/Week_4)
+  * [Day 1](/Weeh_4/Day_1/css.md)
