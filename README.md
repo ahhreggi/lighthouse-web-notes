@@ -38,4 +38,7 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [Security & REST](/Week_3/Day_4/security_rest.md)
 
 * [Week 4](/Week_4)
-  * [Day 1](/Weeh_4/Day_1/css.md)
+  * [Day 1](/Week_4/Day_1)
+    * [CSS](/Week_4/Day_1/css.md)
+  * [Day 2](/Week_4/Day_2)
+    * [jQuery](/Week_4/Day_2/jquery.md)
