@@ -63,3 +63,8 @@ $(document).ready(() => {
   
 });
 ```
+To create a new element:
+```
+const newArticle = $("<article>");
+newArticle.append("This is a new article");
+```
