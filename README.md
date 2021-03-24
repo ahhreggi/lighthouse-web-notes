@@ -43,4 +43,4 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
   * [Day 2](/Week_4/Day_2)
     * [jQuery](/Week_4/Day_2/jquery.md)
   * [Day 3](/Week_4/Day_3)
-    * [AJAX w/ jQuery](/Week_4/Day_2/ajax.md)
+    * [AJAX w/ jQuery](/Week_4/Day_3/ajax.md)
