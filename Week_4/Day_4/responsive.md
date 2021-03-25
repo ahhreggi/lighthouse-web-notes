@@ -68,3 +68,23 @@ In the example below, only one of the images will load.
   <img src="image_original.png">
 </picture>
 ```
+
+## Web Fonts - Type Scale
+
+See: type-scale.com
+
+## Grid Systems
+
+Frameworks like [Bootstrap](https://getbootstrap.com/) can take care of media queries for you by providing preset breakpoints.
+
+The Bootstrap grid system is using Flexbox.
+
+```
+<div class="row">
+  <div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3">
+    Hello
+  </div>
+</div>
+```
+
+The above adjusts the size of the inner div based on screensize. On smaller screens, it takes up the entire width of the row, but as the screen gets bigger, it takes up less.
