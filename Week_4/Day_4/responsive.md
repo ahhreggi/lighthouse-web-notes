@@ -88,3 +88,55 @@ The Bootstrap grid system is using Flexbox.
 ```
 
 The above adjusts the size of the inner div based on screensize. On smaller screens, it takes up the entire width of the row, but as the screen gets bigger, it takes up less.
+
+## SASS
+
+SASS is a CSS extension that allows you to use special features to help organize your files:
+
+- Variables
+- Nesting
+- Partials
+- Mixins
+- Extend/inheritance
+
+Multiple files (`.scss`) are compiled together so that your website only needs to load one.
+
+See: <https://sass-lang.com/>
+
+```
+// _global.scss (a partial)
+
+$primary-color: red;
+$bg-color: blue;
+```
+
+```
+// _nav.scss (a partial)
+
+nav {
+  color: $base-font;
+
+  ul {
+    background-color: $bg-color
+  }
+}
+```
+
+```
+// index.scss
+
+@import "global";
+@import "nav";
+
+header {
+  color: $base-font;
+}
+```
+
+There are different ways to add SASS to your project. One way is to use a middleware:
+
+```
+npm install node-sass-middleware
+```
+
+See: <https://www.npmjs.com/package/node-sass-middleware>
