@@ -46,3 +46,7 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [AJAX w/ jQuery](/Week_4/Day_3/ajax.md)
   * [Day 4](/Week_4/Day_4)
     * [Responsive Design](/Week_4/Day_4/responsive.md)
+
+* [Week 5](/Week_5)
+  * [Day 1](/Week_5/Day_1)
+    * [Databases](/Week_5/Day_1/databases.md)
