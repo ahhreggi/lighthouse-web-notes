@@ -51,6 +51,19 @@
 - We state only what we need
 - We do not worry about how to get it
 
+### Data Definition Language (DDL)
+
+- Creating a database (createdb name)
+- Deleting a database (dropdb name)
+- Creating, modifying, of deleting tables
+
+### Data Manipulation Language (DML)
+
+- INSERT
+- UPDATE
+- DELETE
+- SELECT
+
 # PostgreSQL
 
 ```
