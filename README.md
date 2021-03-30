@@ -50,3 +50,5 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
 * [Week 5](/Week_5)
   * [Day 1](/Week_5/Day_1)
     * [Databases](/Week_5/Day_1/databases.md)
+  * [Day 2](/Week_5/Day_2)
+    * [Databases](/Week_5/Day_2/dbdesign.md)
