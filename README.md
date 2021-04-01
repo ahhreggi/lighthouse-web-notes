@@ -52,5 +52,5 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [Databases](/Week_5/Day_1/databases.md)
   * [Day 2](/Week_5/Day_2)
     * [Database Design](/Week_5/Day_2/dbdesign.md)
-  * [Day 3](/Week_5/Day_2)
-    * [SQL and Node](/Week_5/Day_2/sqlnode.md)
+  * [Day 3](/Week_5/Day_3)
+    * [SQL and Node](/Week_5/Day_3/sqlnode.md)
