@@ -54,3 +54,7 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [Database Design](/Week_5/Day_2/dbdesign.md)
   * [Day 3](/Week_5/Day_3)
     * [SQL and Node](/Week_5/Day_3/sqlnode.md)
+
+* [Week 7](/Week_7)
+  * [Day 1](/Week_7/Day_1)
+    * [TODO List (Component-based UI w/ React)](/Week_7/Day_1)
