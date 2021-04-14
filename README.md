@@ -58,3 +58,7 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
 * [Week 7](/Week_7)
   * [Day 1](/Week_7/Day_1)
     * [TODO List (Component-based UI w/ React)](/Week_7/Day_1)
+  * [Day 2](/Week_7/Day_2)
+    * [Immutable Update Patterns w/ React](/Week_7/Day_2/tournament.md)
+  * [Day 3](/Week_7/Day_3)
+    * [Data Fetching w/ React](/Week_7/Day_3/data.md)
