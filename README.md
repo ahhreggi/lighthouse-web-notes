@@ -62,3 +62,9 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
     * [Immutable Update Patterns w/ React](/Week_7/Day_2/tournament.md)
   * [Day 3](/Week_7/Day_3)
     * [Data Fetching w/ React](/Week_7/Day_3/data.md)
+
+* [Week 8](/Week_8)
+  * [Day 1](/Week_8/Day_1)
+    *[Unit & Integration Testing](/Week_8/Day_1/testing.md)
+  * [Day 5](/Week_8/Day_5)
+    *[Ruby](/Week_8/Day_1/ruby.md)
