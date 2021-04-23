@@ -65,4 +65,4 @@ This repository contains all of the notes taken by [Reggi](https://github.com/ah
 
 * [Week 8](/Week_8)
   * [Day 5](/Week_8/Day_5)
-    * [Ruby](/Week_8/Day_1/ruby.md)
+    * [Ruby](/Week_8/Day_5/ruby.md)
